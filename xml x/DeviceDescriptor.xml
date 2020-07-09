@@ -2661,28 +2661,6 @@
           <Group>OZ2610</Group>
           <Description>SW_RELEASE</Description>
         </SFL>
-        <SFL Name="EFUSE Config">
-          <NickName>SW_RELEASE</NickName>
-          <Catalog>OZ2610</Catalog>
-          <DefValue>0</DefValue>
-          <MinValue>0</MinValue>
-          <MaxValue>1</MaxValue>
-          <EditType>1</EditType>
-          <Format>0</Format>
-          <Description>Software release events state</Description>
-          <Order>11</Order>
-        </SFL>
-        <SFL Name="Register Config">
-          <NickName>SW_RELEASE</NickName>
-          <Catalog>OZ2610</Catalog>
-          <DefValue>0</DefValue>
-          <MinValue>0</MinValue>
-          <MaxValue>1</MaxValue>
-          <EditType>1</EditType>
-          <Format>0</Format>
-          <Description>Software release events state</Description>
-          <Order>11</Order>
-        </SFL>
       </Private>
     </Element>
     <Element Guid="0x00033A02">

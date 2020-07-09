@@ -87,7 +87,7 @@ namespace O2Micro.Cobra.OZ2610
         // EFUSE Control Flags
         internal const byte ALLOW_WR_FLAG = 0x80;
         internal const byte EFUSE_FROZEN_FLAG = 0x80;
-        internal const UInt16 EF_TOTAL_PARAMS = 17; //需要修改
+        internal const UInt16 EF_TOTAL_PARAMS = 16; //需要修改
         #endregion
 
 
