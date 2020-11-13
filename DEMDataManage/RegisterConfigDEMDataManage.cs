@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
-using O2Micro.Cobra.Common;
+using Cobra.Common;
 
-namespace O2Micro.Cobra.OZ2610
+namespace Cobra.OZ2610
 {
     public class RegisterConfigDEMDataManage:DEMDataManageBase
     {
