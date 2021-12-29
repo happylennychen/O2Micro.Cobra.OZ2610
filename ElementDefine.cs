@@ -23,6 +23,7 @@ namespace Cobra.OZ2610
 
         //internal const UInt16 EF_CFG = 0x16;
         internal const UInt16 EF_USR_OFFSET = 0x18;
+        internal const UInt16 EF_USR_1C = 0x1c;
         internal const UInt16 EF_USR_TOP = 0x1d;
 
         internal const UInt16 OP_USR_OFFSET = 0x28;

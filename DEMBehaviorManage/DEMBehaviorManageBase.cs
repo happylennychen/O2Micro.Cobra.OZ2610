@@ -298,7 +298,7 @@ namespace Cobra.OZ2610
             return ret;
         }
 
-        public UInt32 Write(ref TASKMessage msg)    //Expert 把这里污染了 //去掉了污染20200513
+        public virtual UInt32 Write(ref TASKMessage msg)    //Expert 把这里污染了 //去掉了污染20200513
         {
             UInt32 ret = LibErrorCode.IDS_ERR_SUCCESSFUL;
             List<byte> OpReglist = new List<byte>();
@@ -435,7 +435,8 @@ namespace Cobra.OZ2610
         public void PrepareHexData()
         {
             //if (isFrozen == false)
-                parent.m_OpRegImg[ElementDefine.EF_USR_TOP].val |= 0x80;    //Set Frozen bit in image
+            parent.m_OpRegImg[ElementDefine.EF_USR_TOP].val |= 0x80;    //Set Frozen bit in image
+            parent.m_OpRegImg[ElementDefine.EF_USR_1C].val |= 0x0e;     //Set OT UT to disable
         }
         #endregion
     }

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Root usage="ExtensionDescriptor" chip="OZ2610" chiptype="5710" bustype ="I2C" libname ="Cobra.OZ2610" ProjectCode="OCE2610X" AppVersion="2.00.03" OCEVersion="1.0.1.0">
+<Root usage="ExtensionDescriptor" chip="OZ2610" chiptype="5710" bustype ="I2C" libname ="Cobra.OZ2610" ProjectCode="OCE2610X" AppVersion="2.00.03" OCEVersion="1.0.2.0">
   <Part Name="DBConfig">
     <ChipName>OZ2610</ChipName>
     <ChipVersion>A0</ChipVersion>
     <UserType>X</UserType>
-    <Date>20211026</Date>
+    <Date>20211222</Date>
     <HasCom>true</HasCom>
     <HasAMT>true</HasAMT>
   </Part>
